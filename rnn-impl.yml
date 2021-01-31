@@ -1,0 +1,41 @@
+name: rnn-impl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - blas=2.107=mkl
+  - blas-devel=3.9.0=7_mkl
+  - ca-certificates=2020.12.5=h033912b_0
+  - certifi=2020.12.5=py39h6e9494a_1
+  - joblib=1.0.0=pyhd8ed1ab_0
+  - libblas=3.9.0=7_mkl
+  - libcblas=3.9.0=7_mkl
+  - libcxx=11.0.1=habf9029_0
+  - libffi=3.3=h046ec9c_2
+  - libgfortran=5.0.0=9_3_0_h6c81a4c_17
+  - libgfortran5=9.3.0=h6c81a4c_17
+  - liblapack=3.9.0=7_mkl
+  - liblapacke=3.9.0=7_mkl
+  - llvm-openmp=11.0.1=h7c73e74_0
+  - mkl=2020.4=h08c4f10_301
+  - mkl-devel=2020.4=h694c41f_302
+  - mkl-include=2020.4=h08c4f10_301
+  - ncurses=6.2=h2e338ed_4
+  - ninja=1.10.2=h9a9d8cb_0
+  - numpy=1.19.5=py39he588a01_1
+  - openssl=1.1.1i=h35c211d_0
+  - pip=21.0.1=pyhd8ed1ab_0
+  - python=3.9.1=h2502468_5_cpython
+  - python_abi=3.9=1_cp39
+  - pytorch=1.7.1=py3.9_0
+  - readline=8.0=h0678c8f_2
+  - setuptools=49.6.0=py39h6e9494a_3
+  - sqlite=3.34.0=h17101e1_0
+  - tk=8.6.10=h0419947_1
+  - typing_extensions=3.7.4.3=py_0
+  - tzdata=2021a=he74cb21_0
+  - wheel=0.36.2=pyhd3deb0d_0
+  - xz=5.2.5=haf1e3a3_1
+  - zlib=1.2.11=h7795811_1010
+prefix: /Users/daniel/miniconda3/envs/rnn-impl
