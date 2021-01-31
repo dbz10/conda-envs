@@ -1,5 +1,6 @@
 name: jupyter
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
